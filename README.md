@@ -1,71 +1,46 @@
 # Startup - Free Next.js Startup Website Template
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+ - [Demo](https://themewagon.github.io/startup-nextjs/)
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+#### Download
+ - [Download from ThemeWagon](https://themewagon.com/themes/startup-nextjs/)
+ 
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+## Getting Started
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+1. Clone Repository
 
-[![Startup Pro](https://cdn.nextjstemplates.com/Startup-Pro---Next.js-Starter-Template-for-SaaS-Startups-282e26f7-f543-4ae4-a777-ac306c08cce8.png)](https://nextjstemplates.com/templates/saas-starter-startup)
-
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
-
-
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
-
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
-
-### [📦 Download](https://nextjstemplates.com/templates/startup)
-
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
-
-### [🔌 Documentation](https://nextjstemplates.com/docs)
-
-### ⚡ Deploy Now
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
-
-### 🚀 Deploy to GitHub Pages
-
-This project is configured for GitHub Pages deployment with the base URL `/startup-nextjs`.
-
-#### Prerequisites
-- GitHub repository
-- GitHub Pages enabled in repository settings
-
-#### Deployment Steps
-1. Push your code to the main/master branch
-2. The GitHub Actions workflow will automatically build and deploy to GitHub Pages
-3. Your site will be available at: `https://themewagon.github.io/startup-nextjs`
-
-#### Manual Deployment
-```bash
-npm run build
-npm run deploy
+```
+git clone https://github.com/themewagon/startup-nextjs.git
 ```
 
-#### Configuration
-- Base path: `/startup-nextjs`
-- Output directory: `dist`
-- Static export enabled
-- Images unoptimized for static hosting
+2. Install Dependencies
+
+```
+npm i
+```
+
+3. Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+## Author
+
+Design and code are completely written by TailGrids and UIdeck design and development team.  
 
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+## License
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+ - Design and Code is Copyright &copy; [UIdeck](https://uideck.com/)
+ - Licensed under [MIT]
+ - Distributed by [ThemeWagon](https://themewagon.com)
 
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+
