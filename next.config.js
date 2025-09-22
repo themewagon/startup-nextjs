@@ -4,8 +4,8 @@ const nextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   distDir: 'dist',
-  basePath: '/startup-nextjs',
-  assetPrefix: '/startup-nextjs/',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/` : '',
   images: {
     unoptimized: true,
     domains: ["localhost"],

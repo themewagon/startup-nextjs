@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:prod": "NEXT_PUBLIC_BASE_PATH=/startup-nextjs next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export",
-    "deploy": "npm run build && touch dist/.nojekyll"
+    "deploy": "npm run build:prod && touch dist/.nojekyll"
   },
   "dependencies": {
     "eslint": "8.33.0",

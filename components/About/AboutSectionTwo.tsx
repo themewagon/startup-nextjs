@@ -1,3 +1,4 @@
+import { getImagePath } from "@/lib/utils";
 import Image from "next/image";
 
 const AboutSectionTwo = () => {
@@ -11,16 +12,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src={getImagePath("/images/about/about-image-2.svg")}
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src={getImagePath("/images/about/about-image-2-dark.svg")}
                 alt="about image"
                 fill
-                className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
           </div>

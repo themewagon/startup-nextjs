@@ -1,5 +1,6 @@
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
+import { getImagePath } from "@/lib/utils";
 import Image from "next/image";
 
 import { Metadata } from "next";
@@ -28,7 +29,7 @@ const BlogDetailsPage = () => {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
-                            src="/images/blog/author-02.png"
+                            src={getImagePath("/images/blog/author-02.png")}
                             alt="author"
                             fill
                           />
@@ -111,7 +112,7 @@ const BlogDetailsPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src={getImagePath("/images/blog/blog-details-02.jpg")}
                         alt="image"
                         fill
                         className="object-cover object-center"
