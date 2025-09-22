@@ -36,9 +36,10 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    onClick={(e) => e.preventDefault()}
                   >
                     <svg
                       width="9"
@@ -50,9 +51,10 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    onClick={(e) => e.preventDefault()}
                   >
                     <svg
                       width="19"
@@ -64,9 +66,10 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    onClick={(e) => e.preventDefault()}
                   >
                     <svg
                       width="18"
@@ -78,9 +81,10 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    onClick={(e) => e.preventDefault()}
                   >
                     <svg
                       width="17"
@@ -137,24 +141,27 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      onClick={(e) => e.preventDefault()}
                     >
                       TOS
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      onClick={(e) => e.preventDefault()}
                     >
                       Privacy Policy
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      onClick={(e) => e.preventDefault()}
                     >
                       Refund Policy
                     </a>
@@ -204,6 +211,14 @@ const Footer = () => {
               Template by UIdeck and{" "}
               <a href="https://nextjstemplates.com" rel="nofollow noopener">
                 Next.js Templates
+              </a>
+              . Distributed by{" "}
+              <a
+                target="_blank"
+                href="https://themewagon.com/"
+                rel="nofollow noopener"
+              >
+                ThemeWagon
               </a>
             </p>
           </div>
