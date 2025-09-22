@@ -12,7 +12,11 @@ export function getImagePath(imagePath: string): string {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   if (isProduction && basePath) {
-    return `/${basePath}/${cleanPath}`;
+    // Remove leading slash from basePath if present to avoid double slashes
+    const cleanBasePath = basePath.startsWith("/")
+      ? basePath.slice(1)
+      : basePath;
+    return `/${cleanBasePath}/${cleanPath}`;
   }
 
   return `/${cleanPath}`;
