@@ -216,7 +216,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 href="https://themewagon.com/"
-                rel="nofollow noopener"
+                rel="nofollow noopener noreferrer"
               >
                 ThemeWagon
               </a>
