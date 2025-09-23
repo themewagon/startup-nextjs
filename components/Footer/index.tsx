@@ -107,7 +107,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href={getNavPath("/blogs")}
+                      href={getNavPath("/blog")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
@@ -115,7 +115,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href={getNavPath("/pricing")}
+                      href={getNavPath("#")}
+                      onClick={(e) => e.preventDefault()}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
