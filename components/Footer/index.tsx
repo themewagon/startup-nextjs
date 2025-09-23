@@ -107,7 +107,6 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      target="_blank"
                       rel="nofollow noopener noreferrer"
                       href={getNavPath("/blog")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -126,7 +125,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      target="_blank"
                       rel="nofollow noopener noreferrer"
                       href={getNavPath("/about")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -183,7 +181,6 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      target="_blank"
                       rel="nofollow noopener noreferrer"
                       href={getNavPath("/contact")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -202,7 +199,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      target="_blank"
                       rel="nofollow noopener noreferrer"
                       href={getNavPath("/about")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
