@@ -3,7 +3,7 @@
  - [Demo](https://themewagon.github.io/startup-nextjs/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/startup-nextjs/)
+ - [Download from ThemeWagon](https://themewagon.com/themes/startup/)
  
 
 ## Getting Started
