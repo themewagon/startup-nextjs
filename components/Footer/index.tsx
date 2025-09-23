@@ -107,6 +107,8 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
                       href={getNavPath("/blog")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
@@ -124,6 +126,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
                       href={getNavPath("/about")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
@@ -179,6 +183,8 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
                       href={getNavPath("/contact")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
@@ -187,7 +193,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href={getNavPath("/")}
+                      href={getNavPath("#")}
+                      onClick={(e) => e.preventDefault()}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use
@@ -195,6 +202,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
                       href={getNavPath("/about")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
@@ -209,8 +218,23 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
+              Template by
+              <a
+                target="_blank"
+                href="http://uideck.com/"
+                rel="nofollow noopener noreferrer"
+                className="hover:text-primary"
+              >
+                {" "}
+                UIdeck{" "}
+              </a>
+              and{" "}
+              <a
+                target="_blank"
+                href="https://nextjstemplates.com"
+                rel="nofollow noopener noreferrer"
+                className="hover:text-primary"
+              >
                 Next.js Templates
               </a>
               . Distributed by{" "}
@@ -218,6 +242,7 @@ const Footer = () => {
                 target="_blank"
                 href="https://themewagon.com/"
                 rel="nofollow noopener noreferrer"
+                className="hover:text-primary"
               >
                 ThemeWagon
               </a>
