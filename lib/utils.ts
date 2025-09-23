@@ -29,3 +29,18 @@ export function getImagePath(imagePath: string): string {
 export function getBasePath(): string {
   return process.env.NEXT_PUBLIC_BASE_PATH || "";
 }
+
+/**
+ * Get the correct navigation path based on the environment
+ * @param path - The navigation path starting with /
+ * @returns The full navigation path with base path if needed
+ */
+export function getNavPath(path: string): string {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+  if (basePath) {
+    return `${basePath}${path}`;
+  }
+
+  return path;
+}

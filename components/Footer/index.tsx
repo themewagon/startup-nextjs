@@ -1,5 +1,5 @@
 "use client";
-import { getImagePath } from "@/lib/utils";
+import { getImagePath, getNavPath } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href={getNavPath("/")} className="mb-8 inline-block">
                   <Image
                     src={getImagePath("/images/logo/logo-2.svg")}
                     alt="logo"
@@ -107,7 +107,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href={getNavPath("/blogs")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
@@ -115,7 +115,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href={getNavPath("/pricing")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
@@ -123,7 +123,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/about"
+                      href={getNavPath("/about")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
@@ -178,7 +178,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/contact"
+                      href={getNavPath("/contact")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Open Support Ticket
@@ -186,7 +186,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href={getNavPath("/")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use
@@ -194,7 +194,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/about"
+                      href={getNavPath("/about")}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
