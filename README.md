@@ -3,7 +3,7 @@
  - [Demo](https://themewagon.github.io/startup-nextjs/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/startup-nextjs/)
+ - [Download from ThemeWagon](https://themewagon.com/themes/startup/)
  
 
 ## Getting Started
@@ -34,7 +34,7 @@ bun dev
 
 ## Author
 
-Design and code are completely written by TailGrids and UIdeck design and development team.  
+Design and code are completely written by the UIdeck's design and development team.  
 
 
 ## License
